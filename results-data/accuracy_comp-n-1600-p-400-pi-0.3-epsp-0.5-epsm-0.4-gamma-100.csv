@@ -1,0 +1,5 @@
+,Naive,std_naive,Unbiased,std_unbiased,LPC-optimized,std_optimized,Oracle,std_oracle
+book,55.37,0.25,59.5,0.43,75.26,0.19,78.78,0.07
+dvd,55.32,0.41,59.68,0.57,76.42,0.13,80.57,0.12
+elec,57.96,0.11,63.21,0.36,80.73,0.01,83.22,0.09
+kitchen,58.15,0.61,64.71,0.7,81.32,0.11,84.28,0.1
