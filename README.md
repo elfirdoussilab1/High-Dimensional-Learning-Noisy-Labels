@@ -1,5 +1,5 @@
-# rmt-noisy-labels
-This is the official code repository of the paper: High-dimensional Learning with Noisy Labels.
+# High-dimensional Learning with Noisy Labels
+This is the official code repository of the paper: [High-dimensional Learning with Noisy Labels](https://arxiv.org/pdf/2405.14088).
 
 ## Abstract
 This paper provides theoretical insights into high-dimensional binary classification with class-conditional noisy labels. Specifically, we study the behavior of a linear classifier with a label noisiness aware loss function, when both the dimension of data $p$ and the sample size $n$ are large and comparable. Relying on random matrix theory by supposing a Gaussian mixture data model, the performance of the linear classifier when $p,n\to \infty$ is shown to converge towards a limit, involving scalar statistics of the data. Importantly, our findings show that the low-dimensional intuitions to handle label noise do not hold in high-dimension, in the sense that the optimal classifier in low-dimension dramatically fails in high-dimension. Based on our derivations, we design an optimized method that is shown to be provably more efficient in handling noisy labels in high dimensions.
@@ -29,3 +29,13 @@ The real datasets used in our analysis can be found in the folder: [Amazon_revie
 
 ## Requirements:
 The reader can refer the file `requirements.txt` to use the exact same versions of libraries that we used in our experiments.
+
+## Citations:
+``` bash
+@article{firdoussi2024high,
+  title={High-dimensional Learning with Noisy Labels},
+  author={Firdoussi, Aymane El and Seddik, Mohamed El Amine},
+  journal={arXiv preprint arXiv:2405.14088},
+  year={2024}
+}
+```
